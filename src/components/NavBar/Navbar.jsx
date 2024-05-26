@@ -41,6 +41,25 @@ export default function NavBar() {
             Contato
           </NavLink>
         </li>
+        <li className="p-4">
+          <NavLink
+            to="/series"  
+            className="text-black hover:border-b-2 hover:border-black transition duration-300"
+            activeClassName="border-b-2 border-black"
+          >
+             series
+          </NavLink>
+        </li>
+        <li className="p-4">
+          <NavLink
+            to="/filmesvir"  
+            className="text-black hover:border-b-2 hover:border-black transition duration-300"
+            activeClassName="border-b-2 border-black"
+          >
+             filmes que estão por vir 
+          </NavLink>
+      
+        </li>
       </ul>
     </nav>
   );

@@ -10,6 +10,8 @@ import Contato from './pages/Contato'
 import MovieList from './pages/MovieList'
 import Movie from './components/Movie/Movie'
 import { GoogleOAuthProvider } from '@react-oauth/google';
+import Series from './pages/series'
+import Filmesvir from './pages/Filmesvir'
 
 const router = createBrowserRouter([
 {
@@ -21,7 +23,10 @@ const router = createBrowserRouter([
     {path: '/filmes/:id', element: <Movie/>},
     {path: 'sobre', element: <Sobre/>},
     {path: 'contato', element: <Contato/>},
+    {path: 'series', element: <Series/> },
     {path: '*', element: <PageNotFound/>},
+    {path: 'filmesvir', element: <Filmesvir/> },
+
   ]
 }
 
